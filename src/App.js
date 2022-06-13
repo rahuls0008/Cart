@@ -1,7 +1,8 @@
 import React from 'react';
 
 //Import the Components
-import CartItem from './CartItem';  
+import CartItem from './CartItem'; 
+import Cart from './Cart';  
 
 
 
@@ -9,8 +10,7 @@ import CartItem from './CartItem';
 function App() {
   return (
     <div className="App">
-      <h1> Cart</h1>
-      <CartItem />     {/*add CartItem component */}
+      <Cart />         {/* Render Cart component */}
     </div>
   );
 }
