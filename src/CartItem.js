@@ -208,7 +208,7 @@ import React from 'react';
 
 
 
-// CartItem : Class based component (Function based component will work fine here )
+// CartItem : Class based component (Function based component will work fine here    )
 class CartItem extends React.Component {   //CartItem will inherit some features from Component class in React package
     
 
@@ -240,7 +240,7 @@ class CartItem extends React.Component {   //CartItem will inherit some features
             
             {/* Left block */}
             <div className="left-block">
-            <img style={styles.image} />
+            <img style={styles.image} src={product.img} />
             </div>
             
             {/* Right block */}
