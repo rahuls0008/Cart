@@ -208,7 +208,7 @@ import React from 'react';
 
 
 
-// CartItem : Function based component
+// CartItem : Class based component (Function based component will work fine here )
 class CartItem extends React.Component {   //CartItem will inherit some features from Component class in React package
     
 
@@ -292,7 +292,7 @@ class CartItem extends React.Component {   //CartItem will inherit some features
         <img 
         alt="delete" 
         className="action-icons" 
-        src="https://cdn-icons.flaticon.com/png/128/3405/premium/3405244.png?token=exp=1655045122~hmac=2ff60b817691902f8e0c2eed19ab5c95" 
+        src="https://cdn-icons-png.flaticon.com/128/1214/1214428.png" 
         onClick={() => onDeleteProduct(product.id)}
         />
         </div>
